@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Georgia';
+  src: url('../fonts/georgia.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Georgiab';
+  src: url('../fonts/georgiab.ttf') format('truetype');
+}
+* {
+  font-family: 'Georgia';
+}

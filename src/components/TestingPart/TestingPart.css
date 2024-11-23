@@ -1,0 +1,172 @@
+.testing-part {
+    max-width: 100%;
+    margin: 0 100px 0px 100px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timer {
+    font-size: 16px;
+  }
+  
+  .attempts {
+    font-size: 16px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .options-container {
+  margin-bottom: 20px;
+  }   
+  
+  .option {
+    display: flex; 
+    align-items: center; 
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .radio-input {
+    margin-right: 10px !important;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    appearance: none;
+    background-color: white;
+    transition: 0.3s ease;
+  }
+  
+  .radio-input:checked {
+    background-color: rgb(34, 34, 34);
+    border-color: white;
+  }
+  
+  .button-container {
+    text-align: left; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background-color: #ddd;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .next-button {
+    background-color: #676767;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #7f7f7f;
+    color: white;
+  }
+  
+  .result-container {
+    text-align: center;
+  }
+  
+  
+  .result-container .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .result-container p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  button {
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  p {
+    font-size: 20px;
+    color: black;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .testing-part {
+      padding: 15px;
+    }
+  
+    .question-text {
+      font-size: 16px;
+    }
+  
+    .button-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .result-table td {
+      font-size: 14px;
+    }
+  
+    .home-button,
+    .practical-task-button,
+    .next-button {
+      width: 100%;
+    }
+  }
+  
