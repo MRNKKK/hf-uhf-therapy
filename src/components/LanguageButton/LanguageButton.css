@@ -1,0 +1,32 @@
+.header__language {
+  width: 100% -100px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 100px 10px 100px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px 20px 10px 20px;
+}
+
+.form-check {
+  width: 100px;
+  display: flex;
+  font-size: 20px;
+}
+.form-check-input {
+  padding: 0px !important;
+  margin: 0px !important;
+  margin-top: 4px !important;
+}
+.form-switch {
+  margin-left: 0px !important;
+  padding-left: 20px !important;
+  font-size: 25px !important;
+}
+.form-check {
+  margin-left: 0px !important;
+}
+.lg p {
+  font-size: 20px;
+}

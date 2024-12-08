@@ -1,0 +1,15 @@
+.modal-image {
+  width: 250px;
+  max-height: 290px;
+}
+.info-button {
+  width: 100px;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-size: 16px !important;
+}
+.button{
+  width: 240px;
+  font-size: 1.75rem !important;
+  margin-bottom: 30px;
+}

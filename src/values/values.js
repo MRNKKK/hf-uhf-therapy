@@ -1,0 +1,26 @@
+export const electricTable = [
+  { gl: 16.5, nacl: 16.5 },
+  { gl: 17, nacl: 17 },
+  { gl: 18.5, nacl: 18 },
+  { gl: 20, nacl: 19 },
+  { gl: 21, nacl: 19.5 },
+  { gl: 22, nacl: 20.5 },
+  { gl: 22.5, nacl: 21 },
+  { gl: 23.5, nacl: 21.5 },
+  { gl: 24.5, nacl: 22.5 },
+  { gl: 25.5, nacl: 23.5 },
+  { gl: 27, nacl: 24 },
+];
+export const magneticTable = [
+  { gl: 17, nacl: 17 },
+  { gl: 17.5, nacl: 20 },
+  { gl: 17.5, nacl: 22 },
+  { gl: 17.5, nacl: 24 },
+  { gl: 17.5, nacl: 26.5 },
+  { gl: 17.5, nacl: 32 },
+  { gl: 18, nacl: 33 },
+  { gl: 18, nacl: 33 },
+  { gl: 18.5, nacl: 35 },
+  { gl: 18.5, nacl: 36.5 },
+  { gl: 19, nacl: 37.5 },
+];

@@ -1,0 +1,75 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgiab';
+  }
+  
+  .home-page h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Georgiab';
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+    padding: 0 100px; 
+    box-sizing: border-box; 
+  }
+  
+  .home-page-button {
+    width: 420px; 
+    height: 150px; 
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-size: 2.5rem;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+  }
+  
+  .home-page-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    gap: 20px; 
+  }
+  
+  .info-block {
+    flex: 1;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    min-width: 300px; 
+    max-width: 100%; 
+    margin: 0px 100px 10px 100px;
+  }
+  
+  .info-block h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .info-block p {
+    font-size: 2em;
+    color: #000000;
+    font-family: 'Georgia', serif;
+  }
